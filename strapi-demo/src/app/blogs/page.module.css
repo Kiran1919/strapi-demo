@@ -1,0 +1,38 @@
+.header{
+    margin: 25px auto;
+    text-align: center;
+}
+
+.card_section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.load_more_button {
+    display: block;
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 40px auto;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .load_more_button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .load_more_button:active {
+    background-color: #004494;
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  

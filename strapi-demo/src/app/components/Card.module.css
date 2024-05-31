@@ -1,0 +1,25 @@
+.card{
+    width: 45%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card:nth-child(odd){
+    margin-right: 15px;
+}
+
+.title{
+    margin-bottom: 10px;
+}
+
+.summary{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
